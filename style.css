@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #F2FFE9;
+  }
+
+  #main{
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 500px;
+    height: 400px;
+    margin: 0;
+    margin-left: 400px;
+  }
+
+  h1{
+    font-size: 50px;
+    text-decoration:underline;
+  }
+
+  #counter{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #toggleBtn{
+    width: 200px;
+    height: 35px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+  }
+
+  #toggleBtn:hover{
+    transform: scale(1.2);
+    transition: 1s ;
+  }
+
+  #stopBtn{
+    width: 200px;
+    height: 35px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    border: none;
+    background-color: #52D3D8;
+  }
+
+  #stopBtn:hover{
+    transform: scale(1.2);
+    transition: 1s ;
+  }
+  #incrementBtn{
+    width: 200px;
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    border: none;
+    background-color:#52D3D8;
+  }
+
+  #incrementBtn:hover{
+    transform: scale(1.2);
+    transition: 1s ;
+  }
+
+  #decrementBtn{
+    width: 200px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    border: none;
+    background-color:red;
+  }
+
+  #decrementBtn:hover{
+    transform: scale(1.2);
+    transition: 1s ;
+  }
